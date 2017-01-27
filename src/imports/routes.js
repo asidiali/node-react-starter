@@ -1,8 +1,9 @@
-import { IndexRoute, Route } from 'react-router';
-
 import {
   HomeView,
+  NotFoundView,
 } from './components/views';
+import { IndexRoute, Route } from 'react-router';
+
 import { MainLayout } from './components/layouts';
 import React from 'react';
 
