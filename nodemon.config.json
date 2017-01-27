@@ -1,0 +1,4 @@
+{
+  "verbose": true,
+  "ignore": ["src/core*", "src/imports/components/*"]
+}

@@ -1,0 +1,8 @@
+settings
+node_modules
+build
+.idea
+**.DS_Store
+**.sublime-project
+**.sublime-workspace
+npm-debug.log
