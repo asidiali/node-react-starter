@@ -4,7 +4,7 @@ module.exports = {
   name: 'client',
   debug: true,
   devServer: {
-    port: 3005,
+    port: 8081,
     stats: {
       chunks: false,
     },
@@ -14,7 +14,7 @@ module.exports = {
   },
   entry: [
     'babel-polyfill',
-    'webpack-dev-server/client?http://localhost:3005',
+    'webpack-dev-server/client?http://localhost:8081',
     'webpack/hot/only-dev-server',
     './src/core/App.js',
   ],

@@ -81,7 +81,7 @@ const appRouter = createAppRouter();
 app.use('/api', apiRouter);
 app.use('/', appRouter);
 
-app.listen(3000, () => {
+app.listen(8080, () => {
   console.log(`
     ##### node-react-starter
     ##### Application started and listening on port 3000.
